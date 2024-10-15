@@ -1,3 +1,5 @@
+#ifndef VECTOR_H
+
 #include <stdexcept>
 #include <exception>
 #include <initializer_list>
@@ -419,3 +421,4 @@ class Vector {
   size_t size_;
   size_t capacity_;
 };
+#endif
